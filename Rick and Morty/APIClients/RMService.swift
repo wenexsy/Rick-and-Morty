@@ -9,7 +9,7 @@ import Foundation
 
 /// Primary API service object to get Rick and Morty data
 final class RMServise {
-///   shared singleton instance
+    ///   shared singleton instance
     static let shared = RMServise()
     
     ///Privatized constructor
@@ -20,7 +20,11 @@ final class RMServise {
     /// -Parameters:
     ///  -request: request instance
     ///  -completiom: Callback with data or error
-    public func execute(_ request: RMRequest, completion: @escaping () -> () ) {
+    public func execute<T: Codable>(
+        _ request: RMRequest,
+        expecting type: T.Type,
+        completion: @escaping (Result<String, Error>) -> Void
+    ) {
         
     }
 }
