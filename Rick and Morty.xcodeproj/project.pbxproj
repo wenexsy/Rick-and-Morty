@@ -27,6 +27,7 @@
 		12C2018A2A4496220031FBF3 /* RMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C201892A4496220031FBF3 /* RMSingleLocation.swift */; };
 		12C2018C2A4497E10031FBF3 /* RMCharStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C2018B2A4497E10031FBF3 /* RMCharStatus.swift */; };
 		12C2018E2A4498330031FBF3 /* RMCharGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C2018D2A4498330031FBF3 /* RMCharGender.swift */; };
+		12C201922A45D2890031FBF3 /* RMGetAllCharsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C201912A45D2890031FBF3 /* RMGetAllCharsResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		12C201892A4496220031FBF3 /* RMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocation.swift; sourceTree = "<group>"; };
 		12C2018B2A4497E10031FBF3 /* RMCharStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharStatus.swift; sourceTree = "<group>"; };
 		12C2018D2A4498330031FBF3 /* RMCharGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharGender.swift; sourceTree = "<group>"; };
+		12C201912A45D2890031FBF3 /* RMGetAllCharsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGetAllCharsResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,8 @@
 		1254201F2A446B3A0096FB93 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				12C201902A45D24B0031FBF3 /* APIResponseType */,
+				12C2018F2A45D22D0031FBF3 /* DataType */,
 				125420252A446C580096FB93 /* RMLocation.swift */,
 				125420272A446C850096FB93 /* RMCharacter.swift */,
 				125420292A446C9C0096FB93 /* RMEpisode.swift */,
@@ -171,6 +175,21 @@
 				12C2017F2A447D960031FBF3 /* RMSoundsViewController.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		12C2018F2A45D22D0031FBF3 /* DataType */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataType;
+			sourceTree = "<group>";
+		};
+		12C201902A45D24B0031FBF3 /* APIResponseType */ = {
+			isa = PBXGroup;
+			children = (
+				12C201912A45D2890031FBF3 /* RMGetAllCharsResponse.swift */,
+			);
+			name = APIResponseType;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12C201922A45D2890031FBF3 /* RMGetAllCharsResponse.swift in Sources */,
 				12C2017A2A4470050031FBF3 /* RMLocationViewController.swift in Sources */,
 				1254202A2A446C9C0096FB93 /* RMEpisode.swift in Sources */,
 				12C201822A4486B10031FBF3 /* RMService.swift in Sources */,
